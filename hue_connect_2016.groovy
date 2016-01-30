@@ -1,9 +1,9 @@
 /**
  *  Hue Service Manager
  *
- *  Author: Juan Risso (juan@smartthings.com)
+ *  Author: Zachary Priddy (me@zpriddy.com) & Tony Pastor
+ *  Based off the work of: Juan Risso (juan@smartthings.com)
  *
- *  Copyright 2015 SmartThings
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  *  in compliance with the License. You may obtain a copy of the License at:
@@ -18,8 +18,8 @@
  
 definition(
   name: "Hue (Connect)",
-  namespace: "smartthings",
-  author: "SmartThings",
+  namespace: "zpriddy",
+  author: "zpriddy",
   description: "Allows you to connect your Philips Hue lights with SmartThings and control them from your Things area or Dashboard in the SmartThings Mobile app. Adjust colors by going to the Thing detail screen for your Hue lights (tap the gear on Hue tiles).\n\nPlease update your Hue Bridge first, outside of the SmartThings app, using the Philips Hue app.",
   category: "SmartThings Labs",
   iconUrl: "https://s3.amazonaws.com/smartapp-icons/Partner/hue.png",
